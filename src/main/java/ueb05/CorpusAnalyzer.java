@@ -23,7 +23,10 @@ class CorpusAnalyzer {
 	 * Gibt die durchschnittliche Länge von Titeln in Worten zurück
 	 */
 	int averageThesisTitleLength() {
-		throw new UnsupportedOperationException();
+		int[] count = new int (theses.size());
+		for (String s: theses){
+			
+		}
 	}
 
 	/**
