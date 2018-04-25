@@ -25,16 +25,13 @@ class CorpusAnalyzer {
 		return average / theses.size();
 	}
 
-
-	/**
-	 * Gibt eine alphabetisch absteigend sortierte und duplikatfreie
-	 * Liste der ersten Wörter der Titel zurück.
-	 */
 	List<String> uniqueFirstWords() {
 		Set<String> einzigartig = new HashSet<>();
-		for (String s: theses){
-			einzigartig.add()
+		for (String s: theses){						     //Gibt eine alphabetisch absteigend sortierte und duplikatfreie
+			einzigartig.add(s.split(" ")[0]);     //Liste der ersten Wörter der Titel zurück.
 	}
+	List<String> list = new LinkedList<>();
+		
 
 		/**
 		 * Gibt einen Iterator auf Titel zurück; dabei werden alle Woerter, welche
