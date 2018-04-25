@@ -1,9 +1,6 @@
 package ueb05;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 class CorpusAnalyzer {
 	private List<String> theses;
@@ -19,14 +16,13 @@ class CorpusAnalyzer {
 		return theses.size(); 	//Gibt die Anzahl der angefertigten Theses zurück
 	}
 
-	/**
-	 * Gibt die durchschnittliche Länge von Titeln in Worten zurück
-	 */
+
 	int averageThesisTitleLength() {
 		int average = 0;
-		for (String s: )
-			average = average + s.split()
-			
+		for (String s: theses)						//Gibt die durchschnittliche Länge von Titeln in Worten zurück
+			average = average + s.split(" ").length;
+
+		return average /theses.size();
 		}
 	}
 
@@ -35,7 +31,7 @@ class CorpusAnalyzer {
 	 * Liste der ersten Wörter der Titel zurück.
 	 */
 	List<String> uniqueFirstWords() {
-		throw new UnsupportedOperationException();
+		List<String> list = new LinkedList<>();
 	}
 
 	/**
