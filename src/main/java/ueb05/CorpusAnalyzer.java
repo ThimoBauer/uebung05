@@ -14,11 +14,9 @@ class CorpusAnalyzer {
 		}
 	}
 
-	/**
-	 * Gibt die Anzahl der angefertigten Theses zurück
-	 */
+
 	int countTheses() {
-		return theses.size();
+		return theses.size(); 	//Gibt die Anzahl der angefertigten Theses zurück
 	}
 
 	/**
