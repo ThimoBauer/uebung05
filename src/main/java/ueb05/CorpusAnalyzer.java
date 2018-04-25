@@ -18,7 +18,7 @@ class CorpusAnalyzer {
 	 * Gibt die Anzahl der angefertigten Theses zurück
 	 */
 	int countTheses() {
-		throw new UnsupportedOperationException();
+		return theses.size();
 	}
 
 	/**
