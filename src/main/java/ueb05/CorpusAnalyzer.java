@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 class CorpusAnalyzer {
-	private List<String> theses;
+	private List<String> theses = new LinkedList<>();;
 
 	CorpusAnalyzer(Iterator<String> thesesIterator) {
 		// TODO Alle Titel in die this.theses Liste übernehmen
