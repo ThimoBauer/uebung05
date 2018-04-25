@@ -38,6 +38,7 @@ class CorpusAnalyzer {
 			if (list.contains(t[0]))
 				list.add(t[0]);
 		}
+		}
 
 		/**
 		 * Gibt einen Iterator auf Titel zurück; dabei werden alle Woerter, welche
