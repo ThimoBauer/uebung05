@@ -31,14 +31,10 @@ class CorpusAnalyzer {
 	 * Liste der ersten Wörter der Titel zurück.
 	 */
 	List<String> uniqueFirstWords() {
-		List<String> list = new LinkedList<>();
-		for (String s : theses) {
-			String[] t = s.split(" ");
-			list.add(t[0]);
-			if (list.contains(t[0]))
-				list.add(t[0]);
-		}
-		}
+		Set<String> einzigartig = new HashSet<>();
+		for (String s: theses){
+			einzigartig.add()
+	}
 
 		/**
 		 * Gibt einen Iterator auf Titel zurück; dabei werden alle Woerter, welche
